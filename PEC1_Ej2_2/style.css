@@ -45,7 +45,7 @@ p {
 .currency {
   padding: 40px 0;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 
@@ -70,6 +70,19 @@ p {
   font-size: 20px;
   text-align: right;
   padding: 8px;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+
+.amount-container small {
+  color: #E83C62;
+  font-size: 12px;
+  visibility: hidden;
 }
 
 .swap-rate-container {

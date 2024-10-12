@@ -47,7 +47,10 @@
         <option value="VND">VND</option>
         <option value="ZAR">ZAR</option>
       </select>
-      <input type="number" id="amount-one" placeholder="0" value="1">
+      <div class="amount-container">
+        <input type="number" min="0" id="amount-one" placeholder="0" value="1">
+        <small class="small" id="message">Please write a positive amount</small>
+      </div>
     </div>
 
 <div class="swap-rate-container">
@@ -91,7 +94,9 @@
         <option value="VND">VND</option>
         <option value="ZAR">ZAR</option>
       </select>
-      <input type="number" id="amount-two" placeholder="0">
+      <div class="amount-container">
+        <input type="number" min="0" id="amount-two" placeholder="0">
+      </div>    
     </div>
   </div>
   <script src="script.js"></script>
