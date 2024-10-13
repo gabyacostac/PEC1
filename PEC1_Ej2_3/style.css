@@ -19,7 +19,7 @@ body {
   margin: 20px 0;
 }
 
-.movie-container select {
+.movie-container select, .currency-container select {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
@@ -29,6 +29,15 @@ body {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+
+.currency-container select {
+  width: 60px;
+  text-align: center;
+}
+
+.currency-container {
+  margin: 20px 0;
 }
 
 .container {
